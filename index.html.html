@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Piensa como un freak - André Salazar</title>
+    <style>
+        @page { margin: 1.5cm; }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.4;
+            color: #1e293b;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: #ffffff;
+        }
+        h1 { font-size: 16pt; color: #0f172a; margin-bottom: 5px; line-height: 1.2;}
+        h2 { font-size: 12pt; color: #1e3a8a; border-bottom: 1.5px solid #cbd5e1; padding-bottom: 2px; margin-top: 15px; margin-bottom: 8px;}
+        p, ul { margin-top: 0; margin-bottom: 8px; }
+        .ficha { display: flex; flex-wrap: wrap; gap: 10px; font-size: 9.5pt; border-bottom: 2px solid #1e3a8a; padding-bottom: 10px; margin-bottom: 15px; }
+        .ficha div { width: 48%; }
+        .callout { background-color: #eff6ff; border-left: 4px solid #1d4ed8; padding: 8px 12px; margin-bottom: 10px; font-weight: 500; }
+        .callout-hip { background-color: #f0fdf4; border-left: 4px solid #0f766e; padding: 8px 12px; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; font-size: 8.5pt; margin-bottom: 15px; page-break-inside: auto; }
+        tr { page-break-inside: avoid; page-break-after: auto; }
+        th, td { border: 1px solid #cbd5e1; padding: 4px 6px; text-align: left; vertical-align: top; }
+        th { background-color: #f1f5f9; font-weight: bold; }
+        .badge-base { color: #b45309; font-weight: bold; }
+        .badge-cambio { color: #0f766e; font-weight: bold; }
+        .evidence-container { display: flex; gap: 10px; margin-bottom: 10px; }
+        .evidence-img { width: 30%; max-width: 150px; height: auto; border: 1px solid #94a3b8; border-radius: 4px; }
+        .caption { font-size: 8pt; color: #64748b; font-style: italic; margin-bottom: 5px; }
+        svg { max-width: 100%; height: auto; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>¿Adónde se van mis horas de pantalla cuando intento estudiar?</h1>
+    <div class="ficha">
+        <div><strong>Estudiante:</strong> Salazar André (Reg: 224092758)</div>
+        <div><strong>Materia:</strong> Metodología (INV 150) - Economía 1.° año</div>
+        <div><strong>Docente:</strong> Mario Bernal Félix</div>
+        <div><strong>Fecha:</strong> Octubre de 2026 (UAGRM)</div>
+    </div>
+
+    <h2>2. La pregunta clásica</h2>
+    <p>«¿Por qué mi falta de disciplina para soltar el celular me impide concentrarme en la universidad y qué debo hacer para tener más fuerza de voluntad?»</p>
+
+    <h2>3. La pregunta freak — Eje central</h2>
+    <div class="callout">
+        ¿En qué momento del día y hacia qué aplicaciones específicas se desvían mis horas de pantalla cuando me siento a resolver mis prácticas universitarias?
+    </div>
+    <p><strong>¿Por qué es freak?</strong> No asume la respuesta (falta de disciplina) ni incluye la solución. Como Kobayashi al separar el hot dog, esta pregunta divide mis 78 h 33 min semanales para diagnosticar qué aplicaciones exactas (Brave vs. Instagram/Free Fire) son herramientas y cuáles secuestran mi atención.</p>
+
+    <h2>4. La causa raíz: síntoma → mecanismo → causa</h2>
+    <p>Revisando los 7 días de mi línea base (11 h 13 min/día), vi que 29h 47m son de utilidades (Brave) y 4h 45m de Gemini. El <strong>síntoma</strong> es el retraso académico acumulando 26 h 12 min de ocio. El <strong>mecanismo</strong> es que al trabarme en un ejercicio abro Instagram (13h 09m) o Free Fire (7h 50m). La <strong>causa raíz</strong> es estudiar con el celular en la mesa, a un movimiento de mano de distancia.</p>
+    
+    <svg viewBox="0 0 700 130" style="height: 120px;">
+        <rect x="95" y="6" width="560" height="22" rx="4" fill="#fef2f2" stroke="#dc2626"></rect>
+        <text x="375" y="20" font-size="10" font-weight="bold" fill="#7f1d1d" text-anchor="middle">SÍNTOMA: Interrupciones al estudiar y 26h 12m/semana en Ocio (3h 45m/día en línea base)</text>
+        
+        <line x1="260" y1="28" x2="220" y2="39" stroke="#475569" stroke-width="1.2"></line>
+        <line x1="490" y1="28" x2="530" y2="39" stroke="#94a3b8" stroke-width="1.2"></line>
+        
+        <rect x="95" y="40" width="285" height="22" rx="4" fill="#fffbeb" stroke="#d97706"></rect>
+        <text x="237" y="54" font-size="9" fill="#78350f" text-anchor="middle">MECANISMO: Abro Instagram o Free Fire al trabarme</text>
+        
+        <rect x="395" y="40" width="260" height="22" rx="4" fill="#f1f5f9" stroke="#94a3b8"></rect>
+        <text x="525" y="54" font-size="9" fill="#475569" text-anchor="middle">EXTERNO: Consultas en Brave (28h) y Gemini (4h)</text>
+        
+        <line x1="237" y1="62" x2="237" y2="73" stroke="#475569" stroke-width="1.2"></line>
+        
+        <rect x="95" y="74" width="285" height="22" rx="4" fill="#eff6ff" stroke="#2563eb"></rect>
+        <text x="237" y="88" font-size="9" fill="#1e3a8a" text-anchor="middle">¿POR QUÉ?: Tengo el celular al alcance en la mesa</text>
+        
+        <line x1="237" y1="96" x2="237" y2="105" stroke="#0f766e" stroke-width="1.5"></line>
+        
+        <rect x="95" y="106" width="560" height="22" rx="4" fill="#f0fdf4" stroke="#0f766e" stroke-width="1.5"></rect>
+        <text x="375" y="120" font-size="10" font-weight="bold" fill="#115e59" text-anchor="middle">CAUSA RAÍZ: Mi mano llega antes a la red social que a la calculadora. Hay cero fricción.</text>
+    </svg>
+
+    <h2>5. La hipótesis (Un solo cambio)</h2>
+    <div class="callout-hip">
+        <strong>Si</strong> estudio dejando mi celular cargando fuera de mi habitación durante toda la tarde (<strong>X</strong>), <strong>entonces</strong> reduciré mi tiempo en Redes/Juegos a menos de 1 h 30 min y terminaré mis prácticas sin interrupciones en al menos 6 de 7 días (<strong>Y</strong>), <strong>medido con</strong> capturas de «Tiempo en pantalla» y mis apuntes (<strong>Z</strong>).
+    </div>
+
+    <h2>6. Los resultados</h2>
+    <div class="caption">Tabla 1: Comparativa Línea Base (7 días) vs. Cambio Único (7 días)</div>
+    <table>
+        <tr>
+            <th>Indicador (Tiempo en pantalla iOS)</th>
+            <th>Línea base (7 días sin cambio)</th>
+            <th>Con el cambio único (7 días)</th>
+            <th>Diferencia neta</th>
+        </tr>
+        <tr>
+            <td>Tiempo en pantalla total</td>
+            <td>78 h 33 min (11 h 13 min/día)</td>
+            <td>48 h 16 min (6 h 54 min/día)</td>
+            <td>−30 h 17 min (−4 h 19 min/día)</td>
+        </tr>
+        <tr>
+            <td>Ocio: Redes Sociales + Juegos</td>
+            <td>26 h 12 min (3 h 45 min/día)</td>
+            <td>8 h 25 min (1 h 12 min/día)</td>
+            <td>−17 h 47 min (−2 h 33 min/día)</td>
+        </tr>
+        <tr>
+            <td>Días logrando meta (< 1h 30m ocio)</td>
+            <td>0 de 7 días (0%)</td>
+            <td>6 de 7 días (85,7%)</td>
+            <td>+85,7 puntos porcentuales</td>
+        </tr>
+    </table>
+
+    <p><strong>Lectura analítica:</strong> La línea base mostró que el distractor principal era Instagram entre semana y Free Fire los fines de semana (generando 140 notificaciones diarias). Al aplicar el cambio único en la segunda semana (dejar el celular fuera del cuarto), el ocio bajó de 3h 45m a 1h 12m diarios. Solo superé la meta el sábado D13 por jugar de noche, pero aun así el tiempo bajó a la mitad respecto al sábado anterior.</p>
+
+    <h2>7. Qué aprendí, incluso si falló</h2>
+    <ul>
+        <li><strong>Cumplimiento:</strong> Se cumplió. Logré mantener el ocio bajo 1h 30m en 6 de los 7 días experimentales.</li>
+        <li><strong>Límites:</strong> (1) Al ser autoobservación, mi motivación por la tarea universitaria pudo alterar mi disciplina. (2) 14 días no garantizan que el hábito se mantenga todo el semestre. (3) En fines de semana el anclaje del cambio es más débil.</li>
+        <li><strong>Qué cambiaría:</strong> Aislaría los datos de ocio solo a la franja horaria de estudio en lugar de medir las 24 horas del día.</li>
+    </ul>
+
+    <h2>8. Anexo de evidencias y tabla de datos crudos</h2>
+    <div class="evidence-container">
+        <img src="https://lh3.googleusercontent.com/gg/AJWXcNfe7oTMPSIorsOOvaR7KGYV5vTKlTv5S38bN-glDSk8kAlw7txlaqhNokRjtxyyr-GvQlcvgxrrRTsyiIkU5a1J-QAJhQQ6hmw0Uq6vTxMwhwt9LtXB71MQddyHJT6FxZ6BY1Okq-Zy5J_QX1Nf7oIu62hO0HML0yHooLRuNs_ltxPcpLCaYPZqJgPLtFtdzmOPRAX7suj9bHIh9MWY1gsKr0bK23VPo-phlXAW6Q3QTL6fJ4BSJBBbj56s2XlZ2Y2oGG0Ze0yASL-hakg_D9g8SjRVLnT_6w=s0" alt="Evidencia 1" class="evidence-img">
+        <img src="https://lh3.googleusercontent.com/gg-dl/AHiVA1majf7RFo7QhGxTTdic95L34zQtuAXaliI-RN2CLcxX7ijWnUTMTzR1ZcdtvTcJ7LxlwdnVJpBgoFepp4MuQcfYScgB9-VlRqP3iKmQx7YT2y4mw6qU5l-yZ0GlQh4tSvqf8jCNjbI9ZtZShaozvRWd_ArXT956OuUskB_vDXfvL5M3nQ" alt="Evidencia 2" class="evidence-img">
+        <img src="https://lh3.googleusercontent.com/gg-dl/AHiVA1nzyAZi9p2uSLNm_7RdUSR_BdUG1SbZXW5qr2XFZQYiAVv0sf0BGIbC841J1bYrIFHNvkGkjG0sT6fL_vM-c5aSu0CHNNEDaC3-zqVNuTsfHd5ADfy0PVehuxUtL-ZzV-W2U9AqQ1ISvhz_lyPeSPmfllcH6d8B5sfcPLP0U64Jn2K-LQ" alt="Evidencia 3" class="evidence-img">
+    </div>
+    <p style="font-size: 8.5pt;"><strong>Evidencias:</strong> (1) Tiempo total semanal: 78h 33m. (2) Desbloqueos: 113/día, abriendo Instagram y WhatsApp inmediatamente. (3) Notificaciones: 140/día (mayoría WhatsApp). Testigo: Mi hermano, que validó el teléfono cargando en la sala (Días 8-14).</p>
+
+    <table>
+        <tr>
+            <th>Día</th>
+            <th>Etapa</th>
+            <th>Condición (Cambio)</th>
+            <th>Total iOS</th>
+            <th>Ocio (Red+Juego)</th>
+            <th>Registro y Evidencia</th>
+        </tr>
+        <tr><td>D1 (L)</td><td><span class="badge-base">Línea base</span></td><td>Celular en mesa</td><td>11 h 40 m</td><td><strong>3 h 30 m</strong></td><td>Alto uso Instagram; solo 2 ejercicios resueltos.</td></tr>
+        <tr><td>D2 (M)</td><td><span class="badge-base">Línea base</span></td><td>Celular en mesa</td><td>14 h 10 m</td><td><strong>4 h 25 m</strong></td><td>Pico semanal (Barra M); lectura interrumpida.</td></tr>
+        <tr><td>D3 (X)</td><td><span class="badge-base">Línea base</span></td><td>Celular en mesa</td><td>7 h 15 m</td><td><strong>2 h 15 m</strong></td><td>Clases en la U; avancé balance.</td></tr>
+        <tr><td>D4 (J)</td><td><span class="badge-base">Línea base</span></td><td>Celular en mesa</td><td>11 h 05 m</td><td><strong>3 h 20 m</strong></td><td>Rebote Instagram; determinantes con pausas.</td></tr>
+        <tr><td>D5 (V)</td><td><span class="badge-base">Línea base</span></td><td>Celular en mesa</td><td>7 h 33 m</td><td><strong>2 h 50 m</strong></td><td>Barra naranja (Juegos) tras apuntes.</td></tr>
+        <tr><td>D6 (S)</td><td><span class="badge-base">Línea base</span></td><td>Sin clases (finde)</td><td>13 h 30 m</td><td><strong>5 h 10 m</strong></td><td>Mayor pico de ocio (Barra S alta). Repaso nulo.</td></tr>
+        <tr><td>D7 (D)</td><td><span class="badge-base">Línea base</span></td><td>Sin clases (finde)</td><td>13 h 20 m</td><td><strong>4 h 42 m</strong></td><td>Barra D alta en Free Fire; tarea a última hora.</td></tr>
+        <tr><td>D8 (L)</td><td><span class="badge-cambio">Cambio (X)</span></td><td>Celular fuera cuarto</td><td>7 h 20 m</td><td><strong>1 h 10 m</strong></td><td>Tarde continua; análisis de decisiones.</td></tr>
+        <tr><td>D9 (M)</td><td><span class="badge-cambio">Cambio (X)</span></td><td>Celular fuera cuarto</td><td>6 h 50 m</td><td><strong>1 h 05 m</strong></td><td>Asientos de ajuste de corrido sin abrir IG.</td></tr>
+        <tr><td>D10 (X)</td><td><span class="badge-cambio">Cambio (X)</span></td><td>Celular fuera cuarto</td><td>6 h 15 m</td><td><strong>0 h 55 m</strong></td><td>Terminé práctica de Álgebra Lineal.</td></tr>
+        <tr><td>D11 (J)</td><td><span class="badge-cambio">Cambio (X)</span></td><td>Celular fuera cuarto</td><td>6 h 40 m</td><td><strong>1 h 10 m</strong></td><td>Preparación grupal fluida para Administración.</td></tr>
+        <tr><td>D12 (V)</td><td><span class="badge-cambio">Cambio (X)</span></td><td>Celular fuera cuarto</td><td>6 h 10 m</td><td><strong>0 h 50 m</strong></td><td>Lectura profunda de 30 pág. de metodología.</td></tr>
+        <tr><td>D13 (S)</td><td><span class="badge-cambio">Cambio (Raro)</span></td><td>Celular fuera tarde</td><td>8 h 31 m</td><td><strong>2 h 15 m</strong></td><td><em>No cumplió meta:</em> Partida nocturna de Free Fire.</td></tr>
+        <tr><td>D14 (D)</td><td><span class="badge-cambio">Cambio (X)</span></td><td>Celular fuera cuarto</td><td>6 h 30 m</td><td><strong>1 h 00 m</strong></td><td>Retomé el control en domingo; tarea terminada.</td></tr>
+    </table>
+
+</body>
+</html>
